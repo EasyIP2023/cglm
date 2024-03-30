@@ -295,6 +295,7 @@ TEST_DECLARE(glm_mat2x3_zero)
 TEST_DECLARE(glm_mat2x3_make)
 TEST_DECLARE(glm_mat2x3_mul)
 TEST_DECLARE(glm_mat2x3_mulv)
+TEST_DECLARE(glm_mat2x3_vmul)
 TEST_DECLARE(glm_mat2x3_transpose)
 TEST_DECLARE(glm_mat2x3_scale)
 
@@ -303,6 +304,7 @@ TEST_DECLARE(glmc_mat2x3_zero)
 TEST_DECLARE(glmc_mat2x3_make)
 TEST_DECLARE(glmc_mat2x3_mul)
 TEST_DECLARE(glmc_mat2x3_mulv)
+TEST_DECLARE(glmc_mat2x3_vmul)
 TEST_DECLARE(glmc_mat2x3_transpose)
 TEST_DECLARE(glmc_mat2x3_scale)
 
@@ -1473,6 +1475,7 @@ TEST_LIST {
   TEST_ENTRY(glm_mat2x3_make)
   TEST_ENTRY(glm_mat2x3_mul)
   TEST_ENTRY(glm_mat2x3_mulv)
+  TEST_ENTRY(glm_mat2x3_vmul)
   TEST_ENTRY(glm_mat2x3_transpose)
   TEST_ENTRY(glm_mat2x3_scale)
 
@@ -1481,6 +1484,7 @@ TEST_LIST {
   TEST_ENTRY(glmc_mat2x3_make)
   TEST_ENTRY(glmc_mat2x3_mul)
   TEST_ENTRY(glmc_mat2x3_mulv)
+  TEST_ENTRY(glmc_mat2x3_vmul)
   TEST_ENTRY(glmc_mat2x3_transpose)
   TEST_ENTRY(glmc_mat2x3_scale)
 
